@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Amazon</title>
+    <script src="script.js" async></script>
+</head>
+<body>
+    <header>
+   <div class="navbar">
+    <div class="nav-logo border">
+        <div class="logo">
+        </div>
+    </div>
+    <div class="nav-address border">
+        <div class="location-logo">
+            <p class="add-first">Deliver to</p>
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <select class="select-country">
+                <option>India</option>
+                <option>US</option>
+                <option>Japan</option>
+                <option>UK</option>
+                <option>Australia</option>
+                <option>Africa</option>
+        </select>
+            
+        
+    </div>
+    <div class="nav-search border">
+        <input class="search-input" id="searchInput" placeholder="Search Amazon">
+        <div class="search-icon">
+           <button onclick="searchAmazon()" type="button"><i class="fa-solid fa-magnifying-glass"></i></button> 
+        </div>
+
+    </div>
+    <div class="nav-login border">
+        <p class="Sign-in">Hello, sign in</p>
+        <div id="dropdown">
+            <b>Accounts and Sign-In</b>
+            <ul id="dropdown-menu">
+                <button id="jumpbutton">Sign-in</button>
+                
+            </ul>
+            
+        </div>        
+    </div>
+    <div class="returns-and-orders border">
+        <small>Returns</small>
+        <p class="orders">Orders</p>
+    </div>
+    <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+
+    </div>
+   </div> 
+   <div class="panel">
+    <div class="panel-all border">
+        <i class="fa-solid fa-bars"></i>
+        All
+
+    </div>
+    <div class="panel-ops">
+        <p>Today's Deals</p>
+        <p>Registry</p>
+        <p>Customer Serviec</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+
+    </div>
+    <div class="panel-deals border">
+        Shop Cyber week deals
+
+    </div>
+   </div>
+   </header>
+   <div class="hero-section">
+    <div class="hero-msg">
+        You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in/">Click here to go to amazon.in</a>
+    </div>
+
+   </div>
+   <div class="shop-section">
+        <div class="box1 box">
+            <div class="box1-content">
+                <h2 class="h2-box1">Personal and Health care</h2>
+                <div class="box1-img" style="background-image: url('box1_image.jpg')"></div>
+                <a href="https://www.amazon.com/s?k=personal+care&i=cyber-monday&crid=2487O5O5NT6XP&sprefix=personal+care%2Ccyber-monday%2C257&ref=nb_sb_noss_2">See more</a>
+    
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box1-content">
+                <h2 class="h2-box1">Hygiene</h2>
+                <div class="box1-img" style="background-image: url('box2_image.jpg')"></div>
+                <a href="https://www.amazon.com/s?k=hygiene&i=cyber-monday&crid=3TC2UQU5NIWKQ&sprefix=hygien%2Ccyber-monday%2C366&ref=nb_sb_noss_2">See more</a>
+    
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box1-content">
+                <h2 class="h2-box1">Home Decor</h2>
+                <div class="box1-img" style="background-image: url('box3_image.jpg')"></div>
+                <a href="https://www.amazon.com/s?k=home+decor&i=tools&bbn=5550342011&dc&ds=v1%3APNAK2OcFkLbDH%2B8UcN%2BrDVdEp2%2FIZwXkHFzAh9H3RF0&crid=PFU4HIKQRWI0&qid=1701074023&sprefix=home+deco%2Ccyber-monday%2C252&ref=sr_nr_i_2">See more</a>
+    
+            </div>
+        </div>
+        <div class="box4 box"><div class="box1-content">
+            <h2 class="h2-box1">Smartphones</h2>
+            <div class="box1-img" style="background-image: url('box4_image.jpg')"></div>
+            <a href="https://www.amazon.com/cybermonday?deals-widget=%257B%2522presetId%2522:%2522deals-collection-cell-phones-and-accessories%2522%257D&ref_=US_BFCM23_DO_GWHP_CM_Desk_Bubber1_TopDeal_Cellphones&pd_rd_w=gyu6D&content-id=amzn1.sym.0b308741-8d9a-4ca4-bef2-861f3dd91a17&pf_rd_p=0b308741-8d9a-4ca4-bef2-861f3dd91a17&pf_rd_r=Y7F23XJ5X62AN20CNSQ9&pd_rd_wg=zyYZC&pd_rd_r=8f0a85f7-98dd-42e8-859d-323eb7ab4bfd#dealsGridLinkAnchor">See more</a>
+
+        </div></div>
+   </div>
+   <div class="shop-section">
+    <div class="box1 box">
+        <div class="box1-content">
+            <h2 class="h2-box1">Beauty</h2>
+            <div class="box1-img" style="background-image: url('box5_image.jpg')"></div>
+            <a href="https://www.amazon.com/s?k=health+and+beauty&i=beauty-intl-ship&_encoding=UTF8&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&crid=2036DM6EKNYNA&pd_rd_r=8f0a85f7-98dd-42e8-859d-323eb7ab4bfd&pd_rd_w=KqJRJ&pd_rd_wg=zyYZC&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=Y7F23XJ5X62AN20CNSQ9&sprefix=health+and+beauty%2Cbeauty-intl-ship%2C173&ref=pd_gw_unk">See more</a>
+
+        </div>
+    </div>
+    <div class="box2 box">
+        <div class="box1-content">
+            <h2 class="h2-box1">Pets</h2>
+            <div class="box1-img" style="background-image: url('box6_image.jpg')"></div>
+            <a href="https://www.amazon.com/s?k=pets&crid=WO0LBT70WT7O&sprefix=pets%2Caps%2C266&ref=nb_sb_noss_1">See more</a>
+
+        </div>
+    </div>
+    <div class="box3 box">
+        <div class="box1-content">
+            <h2 class="h2-box1">Kids</h2>
+            <div class="box1-img" style="background-image: url('box7_image.jpg')"></div>
+            <a href="https://www.amazon.com/s/?_encoding=UTF8&k=toys&rh=p_36%3A-2500&pd_rd_w=vd3IA&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=Y7F23XJ5X62AN20CNSQ9&pd_rd_wg=zyYZC&pd_rd_r=8f0a85f7-98dd-42e8-859d-323eb7ab4bfd&ref_=pd_gw_unk">See more</a>
+
+        </div>
+    </div>
+    <div class="box4 box"><div class="box1-content">
+        <h2 class="h2-box1">Fashion</h2>
+        <div class="box1-img" style="background-image: url('box8_image.jpg')"></div>
+        <a href="https://www.amazon.com/s/?_encoding=UTF8&k=Trending%20fashion&crid=2787SXJYRXDZH&sprefix=trending%20fashion%2Caps%2C142&ref=nb_sb_noss_1&pd_rd_w=90Rkk&content-id=amzn1.sym.b4114be9-6d3d-4aed-8b31-fcbf38a83486&pf_rd_p=b4114be9-6d3d-4aed-8b31-fcbf38a83486&pf_rd_r=CVK0VYXBVPJEJNDQZQ4W&pd_rd_wg=jkp0Z&pd_rd_r=5d5f9c0d-0316-47c2-a221-8fdc41b60716&ref_=pd_gw_unk">See more</a>
+
+    </div></div>
+    
+</div>
+<footer>
+    <div class="footer">
+        <a href="contributions.html">Contributions</a>
+
+    </div>
+</footer>
+</body>
+</html>
