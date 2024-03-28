@@ -9,4 +9,4 @@ This project is a simplified version of the popular e-commerce platform Amazon. 
 - Login Portal: A simple non-functional login page.
 - Responsive Design: Ensures compatibility and usability across various devices.
 
-
+![Screenshot 2024-03-28 163037](https://github.com/Shreedj/Basic-Amazon-Clone/assets/110774826/59a6af03-0c89-46cb-ad65-4d75de8e9d7f)
